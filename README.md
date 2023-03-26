@@ -1,2 +1,2 @@
-https://marcinrekiel.github.io/goit-markup-hw-01/
+https://github.com/MarcinRekiel/goit-markup-hw-02.git
 Praca domowa
