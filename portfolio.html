@@ -5,29 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
       <nav>
-        <a href="index.html">WebStudio</a>
-        <a href="">Agencja</a>
-        <a href="">Portfolio</a>
-        <a href="#skocz_do_kontakt">Kontakt</a>
+        <a class="link-button" href="./index.html">WebStudio</a>
+        <a class="link-button" href="">Agencja</a>
+        <a class="link-button" href="">Portfolio</a>
+        <a class="contact" href="#skocz_do_kontakt">Kontakt</a>
       </nav>
-      <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-      <a href="tel:+48111111111">+48 111 111 111</a>
+      <a class="contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
+      <a class="contact" href="tel:+48111111111">+48 111 111 111</a>
     </header>
     <main>
       <ul>
         <li>
-          <a><button type="button">Wszystkie</button></a>
-          <a><button type="button">Strony</button></a>
-          <a><button type="button">Aplikacje</button></a>
-          <a><button type="button">button</button></a>
-          <a><button type="button">Marketing</button></a>
+          <a
+            ><button class="cursor-pointer" class="link-button" type="button">
+              Wszystkie
+            </button></a
+          >
+          <a
+            ><button class="cursor-pointer" class="link-button" type="button">
+              Strony
+            </button></a
+          >
+          <a
+            ><button class="cursor-pointer" class="link-button" type="button">
+              Aplikacje
+            </button></a
+          >
+          <a
+            ><button class="cursor-pointer" class="link-button" type="button">
+              Dizajn
+            </button></a
+          >
+          <a
+            ><button class="cursor-pointer" class="link-button" type="button">
+              Marketing
+            </button></a
+          >
         </li>
       </ul>
-      <ul>
+      <ul class="primary-font-size">
         <li>
           <a>
             <img
@@ -52,10 +79,15 @@
             />
           </a>
         </li>
-        <li>
-          <a>Technocrack Strona internetowa</a>
-          <a>Grafika New Orlean vs Golden Star Dizajn</a>
-          <a>Restauracja Seafood Aplikacja</a>/li>
+        <li class="font-bold">
+          <a>Technocrack</a>
+          <a>Grafika New Orlean vs Golden Star</a>
+          <a>Restauracja Seafood</a>
+        </li>
+        <li class="second-font-size">
+          <a>Strona internetowa</a>
+          <a>Dizajn</a>
+          <a>Aplikacja</a>
         </li>
         <li>
           <a>
@@ -81,10 +113,15 @@
             />
           </a>
         </li>
-        <li>
-          <a>Projekt Prime Marketing</a>
-          <a>Projekt Boxes Aplikacja</a>
-          <a>Inspiration has no Borders Strona internetowa</a>/li>
+        <li class="font-bold">
+          <a>Projekt Prime</a>
+          <a>Projekt Boxes</a>
+          <a>Inspiration has no Borders</a>
+        </li>
+        <li class="second-font-size">
+          <a>Marketing</a>
+          <a>Aplikacja</a>
+          <a>Strona internetowa</a>
         </li>
         <li>
           <a>
@@ -95,7 +132,12 @@
               height="294"
           /></a>
           <a>
-            <img src="images/projekt_lab.jpg" alt="labels"370" height="294" /> </a
+            <img
+              src="images/projekt_lab.jpg"
+              alt="labels"
+              width="370"
+              height="294"
+            /> </a
           ><a>
             <img
               src="images/growing_business.jpg"
@@ -105,20 +147,27 @@
             />
           </a>
         </li>
-        <li>
-          <a>Magazyn Limited Edition Dizajn</a>
-          <a>Projekt LAB Marketing</a>
-          <a>Growing Business Aplikacja</a>/li>
+        <li class="font-bold">
+          <a>Magazyn Limited Edition</a>
+          <a>Projekt LAB</a>
+          <a>Growing Business</a>
+        </li>
+        <li class="second-font-size">
+          <a>Dizajn</a>
+          <a>Marketing</a>
+          <a>Aplikacja</a>
         </li>
       </ul>
     </main>
     <footer>
       <address>
         <a href="webstudio">WebStudio</a>
-        <p id="skocz_do_kontakt">m. Warszawa, Aleje Jerozolimskie 21</p>
-        <a href="mailto:info@example.com">info@example.com</a>
+        <p class="contact" id="skocz_do_kontakt">
+          m. Warszawa, Aleje Jerozolimskie 21
+        </p>
+        <a class="contact" href="mailto:info@example.com">info@example.com</a>
         <p></p>
-        <a href="tel:+48111111111">+48 111 111 111</a>
+        <a class="contact" href="tel:+48111111111">+48 111 111 111</a>
       </address>
     </footer>
   </body>
