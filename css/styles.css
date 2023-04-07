@@ -5,16 +5,73 @@ body {
 :root {
   --brand-color: rgb(0, 255, 0);
 }
-.link-button:hover,
-.link-button:focus {
-  color: rgb(255, 255, 255);
-  background-color: rgb(0, 0, 255);
+.header {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.6;
 }
-.contact:hover,
+.header a:hover,
+.header a:focus {
+  text-decoration: underline;
+}
+.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.94;
+  color: #2196f3;
+}
+.header .logo span {
+  color: #000000;
+}
+.footer .logo span {
+  color: #f3f0f0;
+}
+.agencja {
+  text-decoration: none;
+}
+.portfolio {
+  color: #2196f3;
+  text-decoration: none;
+}
+.contact {
+  text-decoration: none;
+}
+.contact {
+  text-decoration: none;
+}
+.header .mail-tel {
+  text-decoration: none;
+  color: #757575;
+}
+.footer .mail-tel {
+  text-decoration: none;
+  color: #757575;
+}
+.footer .mail {
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer .tel {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  background: #2f303a;
+}
+.address {
+  color: #ffffff;
+}
+
+/* .contact:hover,
 .contact:focus {
   color: rgb(255, 0, 0);
-}
-.primary-font-size {
+} */
+/* .primary-font-size {
   font-size: 18px;
   line-height: 2;
 }
@@ -28,4 +85,4 @@ body {
 }
 .cursor-pointer {
   cursor: pointer;
-}
+} */
