@@ -6,7 +6,6 @@ body {
   --brand-color: rgb(0, 255, 0);
 }
 .header {
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 14px;
   line-height: 1.6;
@@ -57,32 +56,40 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 .footer {
-  font-family: "Roboto";
   font-weight: 400;
   font-size: 14px;
   line-height: 1.5;
   background: #2f303a;
 }
+.footer a:hover,
+.footer a:focus,
+.footer p:hover,
+.footer p:focus {
+  text-decoration: underline;
+}
 .address {
   color: #ffffff;
 }
-
-/* .contact:hover,
-.contact:focus {
-  color: rgb(255, 0, 0);
-} */
-/* .primary-font-size {
-  font-size: 18px;
-  line-height: 2;
-}
-.second-font-size {
+.button {
+  font-weight: 500;
   font-size: 16px;
-  line-height: 1.8;
+  line-height: 1.62;
+  text-align: center;
+  background: #f5f4fa;
+}
+.button:hover,
+.button:focus {
+  color: #ffffff;
+  background: #2196f3;
+}
+.img-heading {
+  font-size: 16px;
+  line-height: 1.88;
   color: #757575;
 }
-.font-bold {
+.img-heading h2 {
   font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  color: #212121;
 }
-.cursor-pointer {
-  cursor: pointer;
-} */
