@@ -3,16 +3,19 @@ body {
   color: #212121;
 }
 :root {
-  --brand-color: rgb(0, 255, 0);
+  --color-text: #757575;
+  --color-heading: #212121;
 }
 .header {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.6;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  color: #212121;
 }
 .header a:hover,
 .header a:focus {
-  text-decoration: underline;
+  color: #2196f3;
 }
 .logo {
   font-family: "Raleway";
@@ -20,6 +23,7 @@ body {
   font-size: 26px;
   line-height: 1.94;
   color: #2196f3;
+  letter-spacing: 0.03em;
 }
 .header .logo span {
   color: #000000;
@@ -31,20 +35,12 @@ body {
   text-decoration: none;
 }
 .portfolio {
-  color: #2196f3;
-  text-decoration: none;
-}
-.contact {
   text-decoration: none;
 }
 .contact {
   text-decoration: none;
 }
 .header .mail-tel {
-  text-decoration: none;
-  color: #757575;
-}
-.footer .mail-tel {
   text-decoration: none;
   color: #757575;
 }
@@ -56,40 +52,102 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 .footer {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.5;
+  letter-spacing: 0.03em;
   background: #2f303a;
 }
 .footer a:hover,
 .footer a:focus,
 .footer p:hover,
 .footer p:focus {
-  text-decoration: underline;
+  color: #2196f3;
 }
 .address {
   color: #ffffff;
 }
-.button {
+/* porfolio */
+.buttons-pf {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
+  letter-spacing: 0.03em;
   background: #f5f4fa;
+  cursor: pointer;
 }
-.button:hover,
-.button:focus {
+.buttons-pf:hover,
+.buttons-pf:focus {
   color: #ffffff;
   background: #2196f3;
 }
-.img-heading {
+.img-pf {
   font-size: 16px;
   line-height: 1.88;
-  color: #757575;
+  letter-spacing: 0.03em;
+  color: var(--color-text);
 }
-.img-heading h2 {
+.img-pf h2 {
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
-  color: #212121;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  text-align: left;
+  color: var(--color-heading);
+}
+/* index */
+.blackscreen {
+  color: #ffffff;
+  background: #2f303a;
+}
+.blackscreen h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.blackscreen .button-ag {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background: #2196f3;
+  cursor: pointer;
+}
+
+.lorenipsun {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--color-text);
+}
+.lorenipsun h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-heading);
+}
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 2.52;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--color-heading);
+}
+.img-ag {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--color-text);
+}
+.img-ag h3 {
+  font-weight: 500;
+  color: var(--color-heading);
 }
