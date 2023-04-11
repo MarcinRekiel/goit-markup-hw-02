@@ -11,7 +11,6 @@ body {
   font-size: 14px;
   line-height: 1;
   letter-spacing: 0.02em;
-  color: #212121;
 }
 .header a:hover,
 .header a:focus {
@@ -24,6 +23,7 @@ body {
   line-height: 1.94;
   color: #2196f3;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 .header .logo span {
   color: #000000;
@@ -33,12 +33,15 @@ body {
 }
 .agencja {
   text-decoration: none;
+  color: #212121;
 }
 .portfolio {
   text-decoration: none;
+  color: #212121;
 }
 .contact {
   text-decoration: none;
+  color: #212121;
 }
 .header .mail-tel {
   text-decoration: none;
@@ -63,7 +66,8 @@ body {
 .footer p:focus {
   color: #2196f3;
 }
-.address {
+address {
+  font-style: normal;
   color: #ffffff;
 }
 /* porfolio */
@@ -75,6 +79,7 @@ body {
   letter-spacing: 0.03em;
   background: #f5f4fa;
   cursor: pointer;
+  border-style: none;
 }
 .buttons-pf:hover,
 .buttons-pf:focus {
@@ -116,6 +121,7 @@ body {
   letter-spacing: 0.06em;
   background: #2196f3;
   cursor: pointer;
+  border-style: none;
 }
 
 .lorenipsun {
@@ -150,4 +156,7 @@ h2 {
 .img-ag h3 {
   font-weight: 500;
   color: var(--color-heading);
+}
+ul {
+  list-style-type: none;
 }
